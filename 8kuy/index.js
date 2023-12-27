@@ -1,5 +1,5 @@
 // --------------------------------
-//* Summation
+
 //!  Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0. Your function only needs to return the result, what is shown between parentheses in the example below is how you reach that result and it's not part of it, see the sample tests.
 
 // For example (Input -> Output):
@@ -22,4 +22,17 @@ let max = function (list) {
 
 // console.log(min([-52, 56, 30, 29, -54, 0, -110], -110));
 // console.log(max([4, 6, 2, 1, 9, 63, -134, 566], 566));
+
+// --------------------------------
+
+//! Given an array of integers, return a new array with each value doubled.
+
+// For example:
+// [1, 2, 3] --> [2, 4, 6]
+
+function maps(x) {
+  return x.map((value) => value * 2);
+}
+console.log(maps([1, 2, 3]), [2, 4, 6]);
+
 // --------------------------------
